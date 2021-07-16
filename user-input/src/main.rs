@@ -29,10 +29,6 @@ fn main() {
     println!();
     println!("Hello, {}!", trimmed_name);
     println!("You are {} years old.", trimmed_age);   
-    // printing int is like this
-    // println!("Your Age is: {:?}!", 21);
-    // printing bytes each string takes 
     println!("Number of bytes read (name): {}", b1);
     println!("Number of bytes read (age): {}", b2);
-
 }
